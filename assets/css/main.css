@@ -57,7 +57,7 @@ body {
   width: 100%;
   height: 100%;
   min-height: 100%;
-  background-color: #4A6583;
+  background-color: #7066ff;
   background-position: center center;
   background-size: calc(100% + 25px);
   background-repeat: repeat;
@@ -137,7 +137,7 @@ body.ajax-page-visible {
 }
 
 a {
-  color: #4A6583;
+  color: #7066ff;
   text-decoration: none;
   outline: none;
   -webkit-transition: all .3s ease-in-out;
@@ -158,9 +158,16 @@ a:focus {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: 'Poppins', Helvetica, sans-serif;
   font-weight: 600;
+  font-style: normal;
+  color: #333333;
+}
+
+h4, h5, h6 {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: #333333;
 }
@@ -304,7 +311,7 @@ textarea.form-control, textarea.form-control:focus {
   top: 0;
   opacity: 0;
   background: transparent !important;
-  border:2px solid #4A6583;
+  border:2px solid #7066ff;
   border-right-width: 0;
   height: 100%;
   -webkit-transition: all 0.3s ease-in-out;
@@ -377,7 +384,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-group-with-icon.form-group-focus i {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .form-group.form-group-w-checkbox {
@@ -475,7 +482,7 @@ input[type="submit"],
   line-height: 1.2;
   border: 0;
   outline: 0;
-  border: 2px solid #4A6583;
+  border: 2px solid #7066ff;
   color: #222;
   text-shadow: none;
   background-color: #fff;
@@ -506,9 +513,9 @@ input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-  background-color: #4A6583;
+  background-color: #7066ff;
   color: #fff;
-  border: 2px solid #4A6583;
+  border: 2px solid #7066ff;
 }
 
 .btn-secondary {
@@ -531,11 +538,11 @@ input[type="submit"]:focus {
 /* / buttons */
 
 .border-top {
-  border-top: 2px solid #4A6583;
+  border-top: 2px solid #7066ff;
 }
 
 .border-bottom {
-  border-bottom: 2px solid #4A6583;
+  border-bottom: 2px solid #7066ff;
 }
 
 /* Footer */
@@ -752,7 +759,7 @@ td {
   width: 52px;
   height: 52px;
   margin: 100px auto;
-  background-color: #4A6583;
+  background-color: #7066ff;
 
   border-radius: 100%;  
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -1203,7 +1210,7 @@ td {
   width: 44px;
   height: 44px;
   line-height: 44px;
-  background-color: #4A6583;
+  background-color: #7066ff;
   border-radius: 100px;
   text-align: center;
   color: #fff;
@@ -1578,7 +1585,7 @@ h3.comment-reply-title:after {
   position: absolute;
   content: '';
   width: 30px;
-  background-color: #4A6583;
+  background-color: #7066ff;
   height: 2px;
   bottom: 0;
 }
@@ -1595,7 +1602,7 @@ h3.comment-reply-title:before {
 }
 
 .block-title h3 span {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .custom-page-content .block {
@@ -1799,7 +1806,7 @@ h3.comment-reply-title:before {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #4A6583;
+    background-color: #7066ff;
 }
 
 .info-list li .value {
@@ -1831,15 +1838,15 @@ ul.social-links li a {
   width: 34px;
   height: 34px;
   line-height: 34px;
-  color: #4A6583;
+  color: #9e9e9e;
   background-color: transparent;
-  border: 0px solid #e0e0e0;
+  border: 1px solid #e0e0e0;
   text-align: center;
   vertical-align: middle;
 }
 
 ul.social-links li a:hover {
-  color: #007BFF;
+  color: #212121;
 }
 
 ul.social-links li a i {
@@ -1901,7 +1908,7 @@ ul.social-links li:last-child a {
 }
 
 .info-block-w-icon .ci-text p {
-  font-size: 1.1em;
+  font-size: .92em;
 }
 
 .info-block-w-icon .ci-text p:last-child {
@@ -1912,7 +1919,7 @@ ul.social-links li:last-child a {
   position: relative;
   display: table-cell;
   font-size: 33px;
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .info-block-w-icon img {
@@ -1971,7 +1978,7 @@ ul.social-links li:last-child a {
   background-color: #fff;
   padding: 0 10px;
   line-height: 23px;
-  border: 2px solid #4A6583;
+  border: 2px solid #7066ff;
   border-radius: 30px;
 }
 
@@ -2098,7 +2105,7 @@ ul.social-links li:last-child a {
 }
 
 .skills-first-style .skill-percentage {
-  background-color: #4A6583;
+  background-color: #7066ff;
   border: 2px solid #fff;
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
@@ -2129,7 +2136,7 @@ ul.social-links li:last-child a {
   font-size: 48px;
   line-height: 80px;
   color: #fff;
-  background-color: #4A6583;
+  background-color: #7066ff;
   width: 80px;
   height: 80px;
   border-radius: 100px;
@@ -2296,12 +2303,12 @@ ul.social-links li:last-child a {
 .clients.owl-carousel .owl-dot:hover span,
 .testimonials.owl-carousel .owl-dot.active span,
 .testimonials.owl-carousel .owl-dot:hover span {
-    background-color: #4A6583;
+    background-color: #7066ff;
 }
 
 .clients.owl-carousel .owl-dot.active span,
 .testimonials.owl-carousel .owl-dot.active span {
-    background-color: #4A6583;
+    background-color: #7066ff;
     width: 30px;
 }
 /* /Clients Slider */
@@ -2351,7 +2358,7 @@ ul.social-links li:last-child a {
 .lm-info-block i {
   position: relative;
   font-size: 33px;
-  color: #4A6583;
+  color: #7066ff;
   margin-bottom: 6px;
   width: 33px;
   height: 33px;
@@ -2362,7 +2369,7 @@ ul.social-links li:last-child a {
   font-weight: 400;
   display: block;
   margin: 10px 0;
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .lm-info-block-value {
@@ -2542,7 +2549,7 @@ ul.social-links li:last-child a {
   width: 30px;
   height: 30px;
   background-color: #fff;
-  color: #4A6583;
+  color: #7066ff;
   text-align: center;
   line-height: 30px;
   border-radius: 5px;
@@ -2878,8 +2885,8 @@ ul.social-links li:last-child a {
 .clients.owl-carousel .owl-nav .owl-prev:hover,
 .clients.owl-carousel .owl-nav .owl-next:hover {
   color: #fff;
-  background-color: #4A6583;
-  border-color: #4A6583;
+  background-color: #7066ff;
+  border-color: #7066ff;
 }
 
 .testimonials.owl-carousel .owl-nav .owl-prev:before,
@@ -3077,7 +3084,7 @@ ul.social-links li:last-child a {
 }
 
 .ajax-page-nav > div.nav-item a:hover {
-  background-color: #4A6583;
+  background-color: #7066ff;
   color: #fff;
 }
 
@@ -3189,7 +3196,7 @@ ul.social-links li:last-child a {
 }
 
 .project-general-info .fa {
-  color: #4A6583;
+  color: #7066ff;
   margin-right: 5px;
 }
 
@@ -3213,7 +3220,7 @@ ul.social-links li:last-child a {
 }
 
 .project-general-info .fa {
-  color: #4A6583;
+  color: #7066ff;
   margin-right: 5px;
 }
 
@@ -3242,7 +3249,7 @@ ul.social-links li:last-child a {
 }
 
 .share-buttons a:hover {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .share-buttons a:last-child {
@@ -3421,7 +3428,7 @@ ul.social-links li:last-child a {
   content: '';
   height: 2px;
   margin-top: 0;
-  background-color: #4A6583;
+  background-color: #7066ff;
   position: absolute;
   left: 0;
   bottom: -3px;
@@ -3611,7 +3618,7 @@ blockquote.fw-quote-right {
 }
 
 .entry-meta.entry-meta-bottom .share-buttons a:hover {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .entry-meta.entry-meta-bottom .post-info span {
@@ -3646,7 +3653,7 @@ blockquote.fw-quote-right {
 }
 
 .post-comments .media-footer a:hover {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .blog-post-content .divider {
@@ -3856,7 +3863,7 @@ a.post-thumbnail:hover {
 .comment-list .pingback a:hover,
 .comment-list .trackback a:hover,
 .comment-metadata a:hover {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .comment-list article,
@@ -3990,7 +3997,7 @@ a.post-thumbnail:hover {
 }
 
 .comment-reply-title small a:hover {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .comment-navigation {
@@ -4032,7 +4039,7 @@ a.post-thumbnail:hover {
 }
 
 .entry-title a:hover {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .site-content .entry-header {
@@ -4052,7 +4059,7 @@ a.post-thumbnail:hover {
 }
 
 .entry-meta a:hover {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .entry-meta.entry-meta-top > span:after {
@@ -4093,7 +4100,7 @@ a.post-thumbnail:hover {
   font-size: 14px;
   margin: 0 6px 6px 0;
   color: #fff;
-  background-color: #4A6583;
+  background-color: #7066ff;
   padding: 2px 5px;
 }
 
@@ -4103,7 +4110,7 @@ a.post-thumbnail:hover {
 
 .cat-links li a:hover {
   color: #fff;
-  background-color: #4A6583;
+  background-color: #7066ff;
 }
 
 .byline {
@@ -4232,7 +4239,7 @@ a.post-thumbnail:hover {
 }
 
 .entry-content .edit-link a:hover {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 .entry-content .more-link {
@@ -4303,8 +4310,8 @@ a.post-thumbnail:hover {
 }
 
 .page-links a:hover {
-  background: #4A6583;
-  border: 1px solid #4A6583;
+  background: #7066ff;
+  border: 1px solid #7066ff;
   color: #fff;
 }
 
@@ -4390,7 +4397,7 @@ a.post-thumbnail:hover {
 
 .post-navigation a:hover,
 .image-navigation a:hover {
-  color: #4A6583;
+  color: #7066ff;
 }
 
 
@@ -4425,12 +4432,12 @@ a.post-thumbnail:hover {
 .paging-navigation .page-numbers.current:hover,
 .paging-navigation .page-numbers.current:focus {
   color: #222;
-  border: 2px solid #4A6583;
+  border: 2px solid #7066ff;
 }
 
 .paging-navigation a:hover,
 .paging-navigation a:focus {
-  background-color: #4A6583;
+  background-color: #7066ff;
   color: #fff;
 }
 
@@ -4738,7 +4745,7 @@ a.post-thumbnail:hover {
   content: '';
   position: absolute;
   left: 0px;
-  border: 2px solid #4A6583;
+  border: 2px solid #7066ff;
   height: 7px;
   width: 7px;
   border-radius: 8px;
@@ -4815,7 +4822,7 @@ a.post-thumbnail:hover {
   height: 2px;
   left: 0;
   bottom: -4px;
-  background-color: #4A6583;
+  background-color: #7066ff;
 }
 
 .blog-sidebar .sidebar-title h4:before {
@@ -4873,7 +4880,7 @@ a.post-thumbnail:hover {
 }
 
 .calendar_wrap td#today {
-  background-color: #4A6583;
+  background-color: #7066ff;
   color: #fff;
   padding: 0 3px;
 }
@@ -5071,7 +5078,7 @@ a.post-thumbnail:hover {
 .nothing-found p {
   display: inline-block;
   color: #fff;
-  background-color: #4A6583;
+  background-color: #7066ff;
   padding: 0 10px;
   font-size: 16px;
 }
@@ -5666,7 +5673,7 @@ a.post-thumbnail:hover {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .home-content.third-style .hp-main-title {
@@ -5828,27 +5835,44 @@ a.post-thumbnail:hover {
 /* ============================================================================= 
 15. Updates
 ============================================================================= */
+/* === v1.2 === */
+/* Full Width Mode */
+@media only screen and (min-width: 991px) {
+  .page-container {
+    max-width: 100%;
+    border-radius: 0;
+    margin: 0;
+  }
 
+  .page-content.single-post {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
 
-.publication h2 {
-  position: relative;
-  font-size: 21px;
-  z-index: 1;
+  .post-content {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .post-thumbnail {
+    width: calc(100% + 140px);
+    margin: 40px -70px 40px;
+    z-index: 0;
+  }
+
+  .page-container {
+    min-height: 100vh;
+    padding-bottom: 120px;
+  }
+
+  .site-footer {
+    position: absolute;
+    margin: 60px 0 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
 }
-
-.bibliography {
-  list-style: auto !important;
-}
-
-.bibliography li {
-  margin: 0 0 1em 1em;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.45em;
-}
-
-.collapse.in {
-  visibility: visible;
-  display: block;
-}
-    

@@ -1,0 +1,178 @@
+---
+layout: default
+title: Grille Tarifaire - Balades
+tarifs_iscurrent: current-menu-item
+balades_iscurrent: current-menu-item
+permalink: /tarif-balades.html
+description: Grille Tarifaire - Balades
+---
+
+{% assign tarifs = site.data.tarifs.balades %}
+
+<div id="main" class="site-main">
+  <div id="main-content" class="single-page-content">
+    <div id="primary" class="content-area">
+      <div class="page-title">
+        <h2>Grille Tarifaire - Balades</h2>
+      </div>
+    </div>
+    <div class="block-title">
+      <h2>Balades occasionnelles</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div class="fw-pricing clearfix row">
+          <div class="fw-package-wrap col-md-4 ">
+            <div class="fw-package">
+              <div class="fw-heading-row">
+                <span> 30 minutes</span>
+              </div>
+                          
+              <div class="fw-pricing-row">
+                <span>{{ tarifs["occasionnelles"]["30mn"] }} €</span>
+              </div>
+                          
+              <div class="fw-button-row">
+                <a href="contact.html" target="_self" class="btn btn-secondary">Réserver</a>
+              </div>
+            </div>
+          </div>
+            <div class="fw-package-wrap col-md-4 highlight-col">
+              <div class="fw-package">
+                <div class="fw-heading-row">
+                  <span>1 heure</span>
+                </div>
+                          
+                <div class="fw-pricing-row">
+                  <span>{{ site.data.tarifs.balades["occasionnelles"]["1h"] }} €</span>
+                </div>
+                <div class="fw-button-row">
+                  <a href="contact.html" target="_self" class="btn btn-secondary">Réserver</a>
+                </div>
+              </div>
+            </div>
+            <div class="fw-package-wrap col-md-4 ">
+              <div class="fw-package">
+                <div class="fw-heading-row">
+                  <span>2 heures</span>
+                </div>
+                <div class="fw-pricing-row">
+                  <span>{{ site.data.tarifs.balades["occasionnelles"]["2h"] }} €</span>
+                </div>
+                <div class="fw-button-row">
+                  <a href="contact.html" target="_self" class="btn btn-secondary">Réserver</a>
+                </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <BR><BR>
+    <div class="block-title">
+      <h2>Balades régulières (1 à 3 fois par semaine)</h2>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div class="fw-pricing clearfix row">
+          <div class="fw-package-wrap col-md-4 ">
+            <div class="fw-package">
+              <div class="fw-heading-row">
+                <span>30 minutes</span>
+              </div>
+                          
+              <div class="fw-pricing-row">
+                <span>{{ site.data.tarifs.balades.regulieres["30mn"] }} €</span>
+              </div>
+                          
+              <div class="fw-button-row">
+                <a href="contact.html" target="_self" class="btn btn-secondary">Réserver</a>
+              </div>
+            </div>
+          </div>
+            <div class="fw-package-wrap col-md-4 highlight-col">
+              <div class="fw-package">
+                <div class="fw-heading-row">
+                  <span>1 heure</span>
+                </div>
+                          
+                <div class="fw-pricing-row">
+                  <span>{{ site.data.tarifs.balades.regulieres["1h"] }} €</span>
+                </div>
+                <div class="fw-button-row">
+                  <a href="contact.html" target="_self" class="btn btn-secondary">Réserver</a>
+                </div>
+              </div>
+            </div>
+            <div class="fw-package-wrap col-md-4 ">
+              <div class="fw-package">
+                <div class="fw-heading-row">
+                  <span>2 heures</span>
+                </div>
+                <div class="fw-pricing-row">
+                  <span>{{ site.data.tarifs.balades.regulieres["2h"] }} €</span>
+                </div>
+                <div class="fw-button-row">
+                  <a href="contact.html" target="_self" class="btn btn-secondary">Réserver</a>
+                </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <BR><BR>
+    <div class="block-title">
+      <h2>Balades fréquentes (4 fois et plus par semaine)</h2>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div class="fw-pricing clearfix row">
+          <div class="fw-package-wrap col-md-4 ">
+            <div class="fw-package">
+              <div class="fw-heading-row">
+                <span>30 minutes</span>
+              </div>
+                          
+              <div class="fw-pricing-row">
+                <span>{{ site.data.tarifs.balades.frequentes["30mn"] }} €</span>
+              </div>
+                          
+              <div class="fw-button-row">
+                <a href="contact.html" target="_self" class="btn btn-secondary">Réserver</a>
+              </div>
+            </div>
+          </div>
+            <div class="fw-package-wrap col-md-4 highlight-col">
+              <div class="fw-package">
+                <div class="fw-heading-row">
+                  <span>1 heure</span>
+                </div>
+                          
+                <div class="fw-pricing-row">
+                  <span>{{ site.data.tarifs.balades.frequentes["1h"] }} €</span>
+                </div>
+                <div class="fw-button-row">
+                  <a href="contact.html" target="_self" class="btn btn-secondary">Réserver</a>
+                </div>
+              </div>
+            </div>
+            <div class="fw-package-wrap col-md-4 ">
+              <div class="fw-package">
+                <div class="fw-heading-row">
+                  <span>2 heures</span>
+                </div>
+                <div class="fw-pricing-row">
+                  <span>{{ site.data.tarifs.balades.frequentes["2h"] }} €</span>
+                </div>
+                <div class="fw-button-row">
+                  <a href="contact.html" target="_self" class="btn btn-secondary">Réserver</a>
+                </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>   

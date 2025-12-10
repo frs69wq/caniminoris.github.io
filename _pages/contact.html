@@ -1,0 +1,111 @@
+---
+layout: default
+title: Contact
+contact_iscurrent: current-menu-item
+permalink: /contact.html
+description: Contact
+---
+<div id="main" class="site-main">
+  <div id="main-content" class="single-page-content">
+    <div id="primary" class="content-area">
+      <div class="page-title">
+        <h2>Contact</h2>
+        <h3>Envie d'une première visite ou d'un devis ? Écris-moi, je réponds rapidement.</h3>
+      </div>
+      <div id="content" class="page-content site-content single-post" role="main">
+        <div class="row">
+          <div class=" col-xs-12 col-sm-4 ">
+            <div id="info_list_1" class="info-list-w-icon">
+              <div class="info-block-w-icon">
+                <div class="ci-icon">
+                  <i class="linecons linecons-mail"></i>
+                </div>
+                <div class="ci-text">
+                  <h4>canisminoris38@gmail.com</h4>
+                </div>
+              </div>
+              <div class="info-block-w-icon">
+                <div class="ci-icon">
+                  <i class="linecons linecons-phone"></i>
+                </div>
+                <div class="ci-text">
+                  <h4>07 89 44 60 42</h4>
+                </div>
+              </div>
+              <div class="info-block-w-icon">
+                <div class="ci-icon">
+                  <i class="fab {{site.data.main.social.instagram.icon}}"></i>
+                </div>
+                <div class="ci-text">
+                  <h4><a href="{{site.data.main.social.instagram.link}}" target="_blank">canisminoris38</a></h4>
+                </div>
+              </div>
+              <div class="info-block-w-icon">
+                <div class="ci-icon">
+                  <i class="fab {{site.data.main.social.tiktok.icon}}"></i>
+                </div>
+                <div class="ci-text">
+                  <h4><a href="{{site.data.main.social.tiktok.link}}" target="_blank">@canisminoris38</a></h4>
+                </div>
+              </div>
+              <div class="info-block-w-icon">
+                <div class="ci-icon">
+                  <i class="linecons linecons-location"></i>
+                </div>
+                <div class="ci-text">
+                  <h4>Saint Martin d'Hères (38) et alentours</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-xs-12 col-sm-8 ">
+            <div class="block-title">
+              <h2>Premier contact par mail</h2>
+            </div>
+            <form id="contact_form" class="contact-form" action="https://formspree.io/f/xblnzzzn" method="POST">
+              <input type="hidden" name="_subject" value="New submission from contact form">
+              <div class="messages"></div>
+                <div class="controls two-columns">
+                  <div class="fields clearfix">
+                    <div class="left-column">
+                      <div class="form-group form-group-with-icon">
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Prénom Nom" required="required" data-error="Nom est obligatoire.">
+                        <div class="form-control-border"></div>
+                        <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group form-group-with-icon">
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Adresse mail" required="required" data-error="Une adresse mail valide est obligatoire.">
+                        <div class="form-control-border"></div>
+                        <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group form-group-with-icon">
+                        <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Sujet" required="required" data-error="Sujet est obligatoire.">
+                        <div class="form-control-border"></div>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="right-column">
+                    <div class="form-group form-group-with-icon">
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="7" required="required" data-error="Merci de me laisser un message."></textarea>
+                      <div class="form-control-border"></div>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div-->
+                <input type="hidden" name="_next" value="thankyou.html">
+    
+                <input type="submit" class="button btn-send" value="Envoyer">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

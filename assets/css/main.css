@@ -5863,6 +5863,7 @@ a.post-thumbnail:hover {
 /* Full Width Mode */
 @media only screen and (min-width: 991px) {
   .page-container {
+    box-sizing: border-box;
     max-width: 100%;
     border-radius: 0;
     margin: 0;

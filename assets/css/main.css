@@ -5841,7 +5841,6 @@ a.post-thumbnail:hover {
 
   .home-content.third-style .inner-text-block:not(.text-reverse) {
     position: relative;
-    padding: 50px 70px 0 0;
     margin-left: -70px;
     z-index: 1;
   }

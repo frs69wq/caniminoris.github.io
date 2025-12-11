@@ -5233,7 +5233,7 @@ a.post-thumbnail:hover {
     height: calc(100% - 52px);
     left: auto;
     top: 52px;
-    z-index: -1;
+    z-index: 1001;
     opacity: 1;
     overflow: auto;
     visibility: visible;

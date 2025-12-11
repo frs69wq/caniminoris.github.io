@@ -1168,16 +1168,20 @@ td {
 4. Site header (Panel with logo & navigation)
 ============================================================================= */
 .header {
-  display: block;
   width: 100%;
-  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #2971ae;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  color: #fff;
+  padding: 10px 60px;
   position: relative;
+  z-index: 1000;
 }
 
 @media only screen and (min-width: 991px) {
   .header {
     width: calc(100% + 40px);
-    margin-left: -20px;
   }
 }
 
@@ -1189,7 +1193,14 @@ td {
   right: 0;
   margin: 0 auto;
   max-width: 1240px;
-  padding: 20px 50px;
+}
+
+.header a {
+  color: #fff;
+}
+
+.header a:hover {
+  color: #FF9800; /* or any hover color you prefer */
 }
 
 .text-logo {
@@ -1252,7 +1263,7 @@ td {
 .site-main-menu li {
   display: inline-block;
   position: relative;
-  color: #333;
+  color: #fff;
   text-decoration: none;
   margin-right: 40px;
 }
@@ -1262,7 +1273,7 @@ td {
 }
 
 .site-main-menu li a {
-  color: #2971ae;/*active menu color, previous was */
+  color: #fff;/*active menu color, previous was */
   text-decoration: none;
   line-height: 50px;
   font-size: 14px;
@@ -1285,7 +1296,7 @@ td {
     .site-main-menu .sub-menu {
       display: block;
       position: absolute;
-      background-color: #fff;
+      background-color: #2971ae;
       left: -23px;
       top: 100px;
       width: auto;
@@ -5186,7 +5197,6 @@ a.post-thumbnail:hover {
 
   .header-content {
     z-index: 999;
-    background-color: #fff;
     padding: 10px 20px;
   }
 

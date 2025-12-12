@@ -868,7 +868,7 @@ td {
   padding: 0 45px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 750px) {
   .fw-section-fluid {
     width: calc( 100% + 80px );
     margin: 0 -40px;
@@ -1736,7 +1736,7 @@ h3.comment-reply-title:before {
     margin-top: 27px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 750px) {
     .home-content {
         margin: 5% 0;
     }

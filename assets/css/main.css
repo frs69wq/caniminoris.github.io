@@ -5115,7 +5115,7 @@ a.post-thumbnail:hover {
 13. Media Queries 
 ============================================================================= */
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 991px) {
   .portfolio-grid figure {
     width: calc(33.33333% - 16px);
   }

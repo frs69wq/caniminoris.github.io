@@ -5901,3 +5901,41 @@ a.post-thumbnail:hover {
     bottom: 0;
   }
 }
+
+/** Copilot quick patch **/
+/* 1) narrower main container on mobile */
+@media only screen and (max-width: 750px) {
+  .page-container {
+    padding: 52px 20px 60px; /* was 52px 40px 60px */
+  }
+
+  /* 2a) soften full-width helper */
+  .fw-section-fluid {
+    width: calc(100% + 40px);  /* was +80px */
+    margin: 0 -20px;           /* was -40px */
+    padding: 0 15px;           /* was 0 25px */
+  }
+
+  /* 3) optional: page title band */
+  .page-title {
+    padding: 24px 20px;
+    margin-right: -20px;       /* was -40px */
+    margin-left: -20px;        /* was -40px */
+  }
+
+  /* 2b) alignfull in the 750px block */
+  .alignfull {
+    margin-left: -20px;        /* was -70px */
+    margin-right: -20px;       /* was -70px */
+    min-width: calc(100% + 40px); /* was +140px */
+  }
+}
+
+/* 2b) alignfull in the 768px block (keep consistent) */
+@media only screen and (max-width: 768px) {
+  .alignfull {
+    margin-left: -20px;        /* was -40px */
+    margin-right: -20px;       /* was -40px */
+    min-width: calc(100% + 40px); /* was +80px */
+  }
+}

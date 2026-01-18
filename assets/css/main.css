@@ -5929,6 +5929,12 @@ a.post-thumbnail:hover {
     margin-right: -20px;       /* was -70px */
     min-width: calc(100% + 40px); /* was +140px */
   }
+
+  /* Fix start-page-full-width overflow on mobile */
+  .home-content.third-style .start-page-full-width {
+    width: 100%;               /* was calc(100% + 140px) */
+    margin-left: 0;            /* was -70px */
+  }
 }
 
 /* 2b) alignfull in the 768px block (keep consistent) */

@@ -1,6 +1,7 @@
 title: Canis Minoris
 description: 'Services animaliers'
 url: https://www.canisminoris.fr
+image: /assets/images/Logo.png
 
 markdown: kramdown
 enable-mathjax: yes

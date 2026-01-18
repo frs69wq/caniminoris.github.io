@@ -1,10 +1,50 @@
-<title>{% if page.title %} {{ page.title }} - {% endif %}{{ site.title }}</title>
 <meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="description" content="{% if page.description %} {{ page.description }} - {% endif %}{{ site.description }}" />
-<meta name="keywords" content="Pet Sitting, Pet Sitter, Saint Martin d'Hères, Grenoble, Chien, Chat, NAC, balade, visite" />
 <meta name="author" content="Célestine Suter Lothe" />
+{% seo %}
+
+<!-- JSON-LD Structured Data for Local Business -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Canis Minoris",
+  "description": "Pet sitter professionnel à Saint-Martin-d'Hères et Grenoble. Services de promenade de chiens et visites à domicile pour animaux.",
+  "url": "https://www.canisminoris.fr",
+  "telephone": "+33789446042",
+  "email": "canisminoris38@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Saint-Martin-d'Hères",
+    "addressRegion": "Isère",
+    "postalCode": "38400",
+    "addressCountry": "FR"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Saint-Martin-d'Hères"
+    },
+    {
+      "@type": "City",
+      "name": "Grenoble"
+    }
+  ],
+  "priceRange": "€€",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "08:00",
+    "closes": "19:00"
+  },
+  "sameAs": [
+    "https://www.instagram.com/canisminoris38",
+    "https://www.tiktok.com/@canisminoris38"
+  ]
+}
+</script>
+
 <link rel="shortcut icon" href="favicon.ico">
 
 

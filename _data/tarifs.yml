@@ -2,7 +2,7 @@ balades:
   occasionnelles:
     "30mn": 8
     "1h": 15
-    "2h": 20
+    "2h": 25
   regulieres:
     "30mn": 7
     "1h": 13
@@ -17,7 +17,7 @@ balades:
     "2h": 180
 visites:
   chiens:
-    "30mn": 12
+    "30mn": 8
     "vacances": "25 € / jour"
     "1h": 15
   chats_NAC:
